@@ -1,0 +1,33 @@
+#body{
+    border-style: solid;
+    background-color: black;
+}
+#chat{
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    width: 40%;
+    height: 98%;
+    margin: auto;
+    top: 0px;
+}
+#otherstuff{
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 28%;
+    right: 3px;
+    height: 98%;
+    background-color: white;
+}
+.text{
+    color: white;
+}
+#sidebar{
+    position:absolute;
+    border-style: solid;
+    border-color: transparent;
+    width: 28%;
+    top: ;
+}
