@@ -25,9 +25,50 @@
     color: white;
 }
 #sidebar{
-    position:absolute;
+    position: absolute;
     border-style: solid;
     border-color: transparent;
     width: 28%;
-    top: ;
+}
+#middlebar{
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 30%;
+    height: 98%;
+    left: 41%;
+    background-color: whitesmoke;
+}
+.subicon1{
+    border-style: solid;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 0px;
+}
+.subicon1:hover{
+    cursor: pointer;
+}
+#add{
+    position: absolute;
+    background-size: cover;
+    background-image: url(assets/add.png);
+    background-position: center;
+    width: 5vh;
+    height: 5vh;
+    top: 10px;
+}
+#icons{
+    position: relative;
+    top: 3%;
+}
+#addin{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 83%;
+    top: 10px;
 }

@@ -1,39 +1,32 @@
-<html>
-    <link rel="stylesheet" href="styles.css">
-    <title>
-        Whats UP!!
-    </title>
-    <body id="body">
-        <div id="otherstuff">
-            <!DOCTYPE html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome file</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's UP!!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><h1 id="for-yeep-lovers">For Yeep Lovers</h1>
-<ul>
-<li>I Built this in an hour so soooory</li>
-<li>just a place to get in games and a hub for any one</li>
-<li>in the middle bar i am going have it were you can make chats</li>
-</ul>
-</div>
+<body id="body">
+    <div id="otherstuff">
+        <h1>For Yeep Lovers</h1>
+        <ul>
+            <li>I Built this in an hour so soooory</li>
+            <li>just a place to get in games and a hub for any one</li>
+            <li>in the middle bar i am going have it where you can make chats</li>
+        </ul>
+    </div>
+    <div id="chat">
+        <div id="tlkio" data-channel="yeepers" data-theme="theme--night" style="width:100%;height:100%;"></div>
+        <script async src="https://tlk.io/embed.js" type="text/javascript" id="script"></script>
+    </div>
+    <div id="middlebar">
+        <div id="addbar">
+        <input type="text" placeholder="add/create chat" id="addin"><span id="add" onclick="newChat(document.getElementById('addin').value)"></span>
+        </div>
+        <div id="icons">
+        <div class="subicon1" onclick="reloadChat('yeepers')"><center><p>Yeepers chat</p></center></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
 </body>
-
 </html>
-
-        </div>
-        <div id="chat">
-            <div id="tlkio" data-channel="yeepers" data-theme="theme--night" style="width:100%;height:100%;"></div><script async src="https://tlk.io/embed.js" type="text/javascript"></script>
-        </div>
-        <div id="sidebar">
-
-        </div>
-    </body>
-</html>
-<script src="scripts.js"></script>
